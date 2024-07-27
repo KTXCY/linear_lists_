@@ -1,0 +1,4 @@
+# ninja log v6
+1	77	7437843376574790	CMakeFiles/test01.dir/src/test01.c.obj	bd74a1ed4466c527
+6	82	7437843376634760	CMakeFiles/test01.dir/src/SqList.c.obj	e8554ab950a70d55
+82	174	7437843377384770	bin/test01.exe	704920ee56c65e34
