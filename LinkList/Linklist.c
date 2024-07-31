@@ -150,7 +150,7 @@ Status CreateList_H(LinkList *L, int n) {
         if (p == NULL) {
             return FALSE;
         }
-        scanf("%d", p->data);
+        scanf("%d", &p->data);
         p->next = ((*L)->next);
         (*L)->next = p;
     }
@@ -171,7 +171,7 @@ Status CreateList_R(LinkList *L, int n) {
         if (p == NULL) {
             return FALSE;
         }
-        scanf("%d", p->data);
+        scanf("%d", &p->data);
         p->next = NULL;
         r->next = p;
         r = p;
