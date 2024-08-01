@@ -9,3 +9,7 @@ add_executable(test01 SqList/SqList.c;SqList/SqList.h;SqList/test01.c)
 
 add_executable(test02 LinkList/Linklist.c;LinkList/Linklist.h;LinkList/test02.c)
 add_executable(test03 CirLinkList/test03.c;CirLinkList/CirLinkList.c;CirLinkList/CirLinkList.h)
+add_executable(test04
+        DuLinkList/test04.c
+        DuLinkList/DuLinkList.c
+        DuLinkList/DuLinkList.h)
